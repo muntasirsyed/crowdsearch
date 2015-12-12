@@ -17,4 +17,5 @@
     "scripts": ["background.js"],
     "persistent": true
   }
+  // testing telegram
 }
