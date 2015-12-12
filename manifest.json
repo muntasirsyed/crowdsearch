@@ -16,6 +16,11 @@
   "background": {
     "scripts": ["background.js"],
     "persistent": true
-  }
-  // testing telegram
+  },
+  "content_scripts": [
+    {
+        "matches": ["http://*/*", "https://*/*"],
+        "js": ["content.js"]
+    }
+  ]
 }
